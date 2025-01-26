@@ -10,9 +10,8 @@
 
 = 颜色
 
-#let data = csv("fr/fr-adj-color.csv")
 #figure(
-  ktable(data, 4),
+  xlsx-parser(read("fr/fr-adj.xlsx", encoding: none), parse-table-style: false),
   caption: "颜色",
   supplement: "表",
   kind: table,
@@ -20,9 +19,8 @@
 
 = 反义词对
 
-#let data = csv("fr/fr-adj-pair.csv")
 #figure(
-  ktable(data, 8),
+  xlsx-parser(read("fr/fr-adj.xlsx", encoding: none), parse-table-style: false, sheet-index: 1),
   caption: "反义词对",
   supplement: "表",
   kind: table,

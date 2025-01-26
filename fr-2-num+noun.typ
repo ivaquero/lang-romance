@@ -12,13 +12,22 @@
 
 == 人称代词
 
-#let data = csv("fr/fr-pron.csv")
 #figure(
-  ktable(data, 6),
+  xlsx-parser(read("fr/fr-pron.xlsx", encoding: none), parse-table-style: false),
   caption: "人称代词",
   supplement: "表",
   kind: table,
 )
+
+== 物主形容词
+
+#figure(
+  xlsx-parser(read("fr/fr-pron.xlsx", encoding: none), parse-table-style: false, sheet-index: 1),
+  caption: "冠词缩合",
+  supplement: "表",
+  kind: table,
+)
+
 
 = 提问
 
@@ -54,19 +63,17 @@
 
 == 1-10
 
-#let data = csv("fr/fr-num.csv")
 #figure(
-  ktable(data, 6, inset: 0.4em),
+  xlsx-parser(read("fr/fr-num.xlsx", encoding: none), parse-table-style: false),
   caption: "1-10",
   supplement: "表",
   kind: table,
 )
 
-== 11-101
+== 11-100
 
-#let data = csv("fr/fr-num2.csv")
 #figure(
-  ktable(data, 6),
+  xlsx-parser(read("fr/fr-num.xlsx", encoding: none), parse-table-style: false, sheet-index: 1),
   caption: "11-100",
   supplement: "表",
   kind: table,
@@ -76,10 +83,9 @@
 
 == 冠词缩合
 
-#let data = csv("fr/fr-prep-coal.csv")
 #figure(
-  ktable(data, 6, inset: .4em),
-  caption: "",
+  xlsx-parser(read("fr/fr-pron.xlsx", encoding: none), parse-table-style: false, sheet-index: 2),
+  caption: "冠词缩合",
   supplement: "表",
   kind: table,
 )

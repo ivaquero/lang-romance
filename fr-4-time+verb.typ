@@ -12,9 +12,8 @@
 
 == 一天
 
-#let data = csv("fr/fr-date-day.csv")
 #figure(
-  ktable(data, 2),
+  xlsx-parser(read("fr/fr-date.xlsx", encoding: none), parse-table-style: false),
   caption: "",
   supplement: "表",
   kind: table,
@@ -22,9 +21,8 @@
 
 == 一周
 
-#let data = csv("fr/fr-date-week.csv")
 #figure(
-  ktable(data, 2),
+  xlsx-parser(read("fr/fr-date.xlsx", encoding: none), parse-table-style: false, sheet-index: 2),
   caption: "",
   supplement: "表",
   kind: table,
@@ -32,9 +30,8 @@
 
 == 月份
 
-#let data = csv("fr/fr-date-month.csv")
 #figure(
-  ktable(data, 4),
+  xlsx-parser(read("fr/fr-date.xlsx", encoding: none), parse-table-style: false, sheet-index: 1),
   caption: "",
   supplement: "表",
   kind: table,
@@ -42,11 +39,9 @@
 
 == 时间段
 
-#let data = csv("fr/fr-date-time.csv")
 #figure(
-  ktable(data, 4),
+  xlsx-parser(read("fr/fr-date.xlsx", encoding: none), parse-table-style: false, sheet-index: 3),
   caption: "",
   supplement: "表",
   kind: table,
 )
-
