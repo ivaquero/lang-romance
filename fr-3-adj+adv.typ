@@ -20,7 +20,13 @@
 = 反义词对
 
 #figure(
-  xlsx-parser(read("fr/fr-adj.xlsx", encoding: none), parse-stroke: false, stroke: frame(rgb("000")), sheet-index: 1),
+  xlsx-parser(
+    read("fr/fr-adj.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 1,
+  ),
   caption: "反义词对",
   supplement: "表",
   kind: table,

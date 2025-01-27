@@ -22,7 +22,13 @@
 == 物主形容词
 
 #figure(
-  xlsx-parser(read("fr/fr-pron.xlsx", encoding: none), parse-stroke: false, stroke: frame(rgb("000")), sheet-index: 1),
+  xlsx-parser(
+    read("fr/fr-pron.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 1,
+  ),
   caption: "冠词缩合",
   supplement: "表",
   kind: table,
@@ -73,7 +79,13 @@
 == 11-100
 
 #figure(
-  xlsx-parser(read("fr/fr-num.xlsx", encoding: none), parse-stroke: false, stroke: frame(rgb("000")), sheet-index: 1),
+  xlsx-parser(
+    read("fr/fr-num.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 1,
+  ),
   caption: "11-100",
   supplement: "表",
   kind: table,
@@ -84,7 +96,13 @@
 == 冠词缩合
 
 #figure(
-  xlsx-parser(read("fr/fr-pron.xlsx", encoding: none), parse-stroke: false, stroke: frame(rgb("000")), sheet-index: 2),
+  xlsx-parser(
+    read("fr/fr-pron.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 2,
+  ),
   caption: "冠词缩合",
   supplement: "表",
   kind: table,
