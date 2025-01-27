@@ -13,7 +13,12 @@
 == 人称代词
 
 #figure(
-  xlsx-parser(read("fr/fr-pron.xlsx", encoding: none), parse-table-style: false),
+  xlsx-parser(
+    read("fr/fr-pron.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+  ),
   caption: "人称代词",
   supplement: "表",
   kind: table,

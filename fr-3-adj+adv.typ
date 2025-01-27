@@ -11,7 +11,12 @@
 = 颜色
 
 #figure(
-  xlsx-parser(read("fr/fr-adj.xlsx", encoding: none), parse-table-style: false),
+  xlsx-parser(
+    read("fr/fr-adj.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+  ),
   caption: "颜色",
   supplement: "表",
   kind: table,

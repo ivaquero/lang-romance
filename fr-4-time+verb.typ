@@ -13,7 +13,12 @@
 == 一天
 
 #figure(
-  xlsx-parser(read("fr/fr-date.xlsx", encoding: none), parse-table-style: false),
+  xlsx-parser(
+    read("fr/fr-date.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+  ),
   caption: "",
   supplement: "表",
   kind: table,
