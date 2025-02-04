@@ -1,6 +1,6 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
-  title: "数词与名词",
+  title: "代词与名词",
   author: "github@ivaquero",
   footer-cap: "github@ivaquero",
   header-cap: "音速法语",
@@ -24,21 +24,10 @@
   kind: table,
 )
 
-== 物主形容词
+== 限定词
 
-#figure(
-  xlsx-parser(
-    read("fr/fr-pron.xlsx", encoding: none),
-    parse-table-style: false,
-    parse-stroke: false,
-    stroke: frame(rgb("000")),
-    sheet-index: 1,
-  ),
-  caption: "冠词缩合",
-  supplement: "表",
-  kind: table,
-)
-
+- ce/cette/ces: this/that/these/those
+- des: some
 
 = 提问
 
@@ -70,33 +59,7 @@
 - Quand travaillent-ils? (When do they work?)
 - Avec qui es-tu? (Who are you with?)
 
-= 数词
-
-== 1-10
-
-#figure(
-  xlsx-parser(read("fr/fr-num.xlsx", encoding: none), parse-table-style: false),
-  caption: "1-10",
-  supplement: "表",
-  kind: table,
-)
-
-== 11-100
-
-#figure(
-  xlsx-parser(
-    read("fr/fr-num.xlsx", encoding: none),
-    parse-table-style: false,
-    parse-stroke: false,
-    stroke: frame(rgb("000")),
-    sheet-index: 1,
-  ),
-  caption: "11-100",
-  supplement: "表",
-  kind: table,
-)
-
-= 介词
+= 冠词
 
 == 冠词缩合
 
@@ -112,14 +75,3 @@
   supplement: "表",
   kind: table,
 )
-
-== 方位介词
-
-- à 和 en
-  - à 用于地方和城市（小范围地理概念）
-  - en 用于国家和大洲（大范围地理概念）
-
-= 限定词
-
-- ce/cette/ces: this/that/these/those
-- des: some

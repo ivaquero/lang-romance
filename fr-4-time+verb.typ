@@ -68,3 +68,5 @@
   supplement: "表",
   kind: table,
 )
+
+= 动词
