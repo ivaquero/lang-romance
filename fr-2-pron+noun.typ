@@ -42,9 +42,13 @@
 
 === 特殊疑问词
 
-#let data = csv("fr/fr-ask.csv")
 #figure(
-  ktable(data, 4),
+  xlsx-parser(
+    read("fr/fr-oral.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+  ),
   caption: "特殊疑问词",
   supplement: "表",
   kind: table,

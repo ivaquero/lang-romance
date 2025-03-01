@@ -1,6 +1,6 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
-  title: "介词和",
+  title: "介词和方位前缀",
   author: "github@ivaquero",
   footer-cap: "github@ivaquero",
   header-cap: "音速法语",
