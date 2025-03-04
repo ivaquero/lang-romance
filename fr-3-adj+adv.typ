@@ -1,8 +1,8 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
   title: "数量与性别",
-  author: "github@ivaquero",
-  footer-cap: "github@ivaquero",
+  author: "GitHub@ivaquero",
+  footer-cap: "GitHub@ivaquero",
   header-cap: "音速法语",
   outline-on: false,
   doc,
