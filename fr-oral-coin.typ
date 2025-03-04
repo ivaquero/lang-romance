@@ -1,8 +1,8 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
   title: "Conversation Quotidienne",
-  author: "ivaquero",
-  footer-cap: "ivaquero",
+  author: "GitHub@ivaquero",
+  footer-cap: "GitHub@ivaquero",
   header-cap: "音速交际法语",
   outline-on: false,
   doc,
@@ -18,8 +18,12 @@ Je suis très heureux de vous rencontrer tous.
 
 == Concours de chant
 
-Dimanche dernier, j'ai regardé un concours de chant français à la bibliothèque. Officiellement, le jeu était génial. Mais personnellement, le jeu n'a pas répondu à mes attentes.
+Dimanche dernier, j'ai regardé un concours de chant français à la bibliothèque. Officiellement, le jeu était génial. Mais personnellement, le concours n'a pas répondu à mes attentes.
 
-Premièrement, il n’y avait pas beaucoup de candidats, j’en ai donc déduit qu’il n’y avait pas assez de participants au premier tour du concours.
-Deuxièmement, qu'est-ce qui était pire, les organisateurs ont en fait organisé l'ordre des performances par les titre des chansons, de sorte que les chanteurs qui choisissaient la même chanson devaient chanter l'un après l'autre. Cet ordre a eu une grande influence sur les score et sur l'effet global du concours.
-Troisièmement, la moitié des candidats ont choisi des chansons qui ne leur convenaient pas à chanter, car la voix du chanteur original était suffisamment basse, ce qui posait beaucoup de difficultés à leur performance.
+Tout d'abord, il n’y avait pas beaucoup de candidats, j’en ai donc déduit qu’il n’y avait pas assez de participants au premier tour du concours.
+
+Ensuite, pour démontrer la popularité du français à travers le monde, les organisateurs ont regroupé les chansons selon les nationalités des chanteurs originaux.
+
+Qu'est-ce qui était pire, ils ont en fait organisé l'ordre des performances par les titres des chansons, de sorte que les chanteurs qui choisissaient la même chanson devaient chanter l'un après l'autre. Cet ordre a eu une grande influence sur les scores et sur l'effet global du concours.
+
+En résumé, les organisateurs ont ignoré l’effet du concours le plus important pour la commodité de leur propre travail. C'est égoïste et déraisonnable.

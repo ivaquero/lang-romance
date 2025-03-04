@@ -1,8 +1,8 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
   title: "Les Voyages",
-  author: "ivaquero",
-  footer-cap: "ivaquero",
+  author: "GitHub@ivaquero",
+  footer-cap: "GitHub@ivaquero",
   header-cap: "音速交际法语",
   outline-on: false,
   doc,
