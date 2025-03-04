@@ -1,6 +1,6 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
-  title: "代词与名词",
+  title: "代词、名词与数词",
   author: "GitHub@ivaquero",
   footer-cap: "GitHub@ivaquero",
   header-cap: "音速法语",
@@ -79,3 +79,32 @@
   supplement: "表",
   kind: table,
 )
+
+
+= 数词
+
+== 1-10
+
+#figure(
+  xlsx-parser(read("fr/fr-num.xlsx", encoding: none), parse-table-style: false),
+  caption: "1-10",
+  supplement: "表",
+  kind: table,
+)
+
+== 11-100
+
+#figure(
+  xlsx-parser(
+    read("fr/fr-num.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 1,
+  ),
+  caption: "11-100",
+  supplement: "表",
+  kind: table,
+)
+
+= 名词的复数

@@ -1,37 +1,11 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
-  title: "数量与性别",
+  title: "形容词与副词",
   author: "GitHub@ivaquero",
   footer-cap: "GitHub@ivaquero",
   header-cap: "音速法语",
   outline-on: false,
   doc,
-)
-
-= 数词
-
-== 1-10
-
-#figure(
-  xlsx-parser(read("fr/fr-num.xlsx", encoding: none), parse-table-style: false),
-  caption: "1-10",
-  supplement: "表",
-  kind: table,
-)
-
-== 11-100
-
-#figure(
-  xlsx-parser(
-    read("fr/fr-num.xlsx", encoding: none),
-    parse-table-style: false,
-    parse-stroke: false,
-    stroke: frame(rgb("000")),
-    sheet-index: 1,
-  ),
-  caption: "11-100",
-  supplement: "表",
-  kind: table,
 )
 
 = 常用形容词
@@ -80,8 +54,10 @@
   kind: table,
 )
 
+= 形容词的复数
+
+= 副词
+
 = 比较级
 
 - plus
-
-= 副词
