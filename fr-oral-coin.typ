@@ -18,7 +18,7 @@ Je suis très heureux de vous rencontrer tous.
 
 == Concours de chant
 
-Dimanche dernier, j'ai regardé un concours de chant français à la bibliothèque. Officiellement, le jeu était génial. Mais personnellement, le concours n'a pas répondu à mes attentes.
+Dimanche dernier, j'ai regardé un concours de chant français à la bibliothèque. Officiellement, c'était génial. Mais personnellement, le concours n'a pas répondu à mes attentes.
 
 Tout d'abord, il n’y avait pas beaucoup de candidats, j’en ai donc déduit qu’il n’y avait pas assez de participants au premier tour du concours.
 
