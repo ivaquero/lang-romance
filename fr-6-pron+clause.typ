@@ -1,20 +1,12 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
-  title: "介词和前缀",
+  title: "代词与从句",
   author: "GitHub@ivaquero",
   footer-cap: "GitHub@ivaquero",
   header-cap: "音速法语",
   outline-on: false,
   doc,
 )
-
-= 介词
-
-== 方位介词
-
-- à 和 en
-  - à 用于地方和城市（小范围地理概念）
-  - en 用于国家和大洲（大范围地理概念）
 
 = 副代词
 
@@ -41,3 +33,21 @@
 
 - Tu t'intéresses à la littérature ? 你对文学感兴趣吗？
 - Oui, je m'y intéresse beaucoup. 是的，我对此非常感兴趣。（y= à la littérature）
+
+= 复合代词
+
+== 陈述句
+
+=== 避免用 qui 引起的混淆
+
+Il y a une édition de cet ouvrage, laquelle se vend fort bien. 这部书有一种版本很畅销。
+
+=== 作间接宾语、状语等
+
+la personne à laquelle vous venez de parler 刚才您对讲话的那个
+
+C'est un domaine dans lequel nous devons agir. 这是一个我们需要采取行动的领域。
+
+La plume avec laquelle il écrivait est à son frère. 刚才写字用的笔是兄弟的。
+
+== 疑问句

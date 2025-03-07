@@ -1,6 +1,6 @@
 #import "@local/scibook:0.1.0": *
 #show: doc => conf(
-  title: "时间与动词时态",
+  title: "时间与动词变位",
   author: "GitHub@ivaquero",
   footer-cap: "GitHub@ivaquero",
   header-cap: "音速法语",
