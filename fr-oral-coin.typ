@@ -14,7 +14,7 @@ Bonjour à tous, je m'appelle XXX, je suis originaire de XXX. J'étais un progra
 
 Je suis très heureux de vous rencontrer tous.
 
-= Commentaire
+= Commentaire des Choses
 
 == Concours de chant
 
@@ -27,4 +27,8 @@ Ensuite, pour démontrer la popularité du français à travers le monde, les or
 Qu'est-ce qui était pire, ils ont en fait organisé l'ordre des performances par les titres des chansons, de sorte que les chanteurs qui choisissaient la même chanson devaient chanter l'un après l'autre. Cet ordre a eu une grande influence sur les scores et sur l'effet global du concours.
 
 En résumé, les organisateurs ont ignoré l’effet du concours le plus important pour la commodité de leur propre travail. C'est égoïste et déraisonnable.
+
+= Commentaire des Personnes
+
+== L'Enseignant
 
