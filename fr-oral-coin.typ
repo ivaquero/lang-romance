@@ -32,3 +32,4 @@ En résumé, les organisateurs ont ignoré l’effet du concours le plus importa
 
 == L'Enseignant
 
+Il est un hôte très professionnel. Il donne autant d'opportunités à chacun de parler. Et à chaque fois il préparait la documentation appropriée de référence.

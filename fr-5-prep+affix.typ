@@ -18,6 +18,19 @@
 
 = 前缀
 
+#figure(
+  xlsx-parser(
+    read("fr/fr-affix.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 1,
+  ),
+  caption: "",
+  supplement: "表",
+  kind: table,
+)
+
 = 后缀
 
 #figure(
@@ -26,7 +39,7 @@
     parse-table-style: false,
     parse-stroke: false,
     stroke: frame(rgb("000")),
-    sheet-index: 1,
+    sheet-index: 2,
   ),
   caption: "",
   supplement: "表",
