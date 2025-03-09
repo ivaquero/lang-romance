@@ -29,6 +29,24 @@
 - ce/cette/ces: this/that/these/those
 - des: some
 
+== On
+
+=== 在口语中，同 nous
+
+- On a bien rigolé. 我们大笑了一场。
+- On a faim ! 我们饿了。
+- On s'aime. 我们相爱。
+
+=== 描述整体的事实或人
+
+- Au Mexique, on mange des tacos, et en France on boit du vin. 在墨西哥人们吃墨西哥玉米卷饼，在法国人们喝红酒。
+- On ne peut pas comparer Londres et Paris. 你不能比较伦敦和巴黎。
+
+=== 来描述被动意义里的某人
+
+- On m'a volé mon portable. 我的电话被偷了/某人偷了我的电话。
+- On m'a enlevé trois dents. 我被拔了三颗牙。
+
 = 提问
 
 == 一般疑问句
