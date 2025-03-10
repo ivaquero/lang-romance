@@ -33,6 +33,8 @@
 
 = 后缀
 
+== 名词后缀
+
 #figure(
   xlsx-parser(
     read("fr/fr-affix.xlsx", encoding: none),
@@ -40,6 +42,36 @@
     parse-stroke: false,
     stroke: frame(rgb("000")),
     sheet-index: 2,
+  ),
+  caption: "",
+  supplement: "表",
+  kind: table,
+)
+
+== 动词后缀
+
+#figure(
+  xlsx-parser(
+    read("fr/fr-affix.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 3,
+  ),
+  caption: "",
+  supplement: "表",
+  kind: table,
+)
+
+== 形容词后缀
+
+#figure(
+  xlsx-parser(
+    read("fr/fr-affix.xlsx", encoding: none),
+    parse-table-style: false,
+    parse-stroke: false,
+    stroke: frame(rgb("000")),
+    sheet-index: 4,
   ),
   caption: "",
   supplement: "表",
