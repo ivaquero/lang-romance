@@ -36,6 +36,8 @@
 
 = 复合代词
 
+lequel, laquelle, lesquelles
+
 == 陈述句
 
 === 避免用 qui 引起的混淆
